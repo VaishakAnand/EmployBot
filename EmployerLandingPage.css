@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(29, 29, 27);
+    font-family: 'Raleway', sans-serif;
+}
+#mainNavbar .nav-link:hover{
+    color: yellow;
+}
+.welcome{
+    color: wheat;
+}
+.click{
+    font-size: 1.2rem;
+}
+.yare{
+    font-size: 1.2rem;
+}
+.button1{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
