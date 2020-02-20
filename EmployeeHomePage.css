@@ -8,20 +8,13 @@ body {
 .welcome{
     color: wheat;
 }
-.click{
-    font-size: 1.2rem;
-}
-p{
-    font-size: 1.2rem;
-}
 .button1{
     background-color: rgb(255, 196, 0);
     border: 1px solid black;
     color: rgb(0, 0, 0);
 }
-#help{
-    color: rgb(0, 225, 255);
-    text-decoration: underline;
+p{
+    font-size: 1.2rem;
 }
 hr {
 	display: block;
@@ -32,4 +25,8 @@ hr {
 	left: 50%;
 	border: none;
     border-bottom: 2px dashed wheat;
+}
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
 }
