@@ -5,6 +5,9 @@ body {
 #mainNavbar .nav-link:hover{
     color: yellow;
 }
+.welcome{
+    color: wheat;
+}
 hr {
 	display: block;
 	position: relative;
@@ -15,6 +18,18 @@ hr {
 	border: none;
     border-bottom: 2px dashed wheat;
 }
-.welcome{
-    color: wheat;
+.contract{
+    color:whitesmoke;
+    text-align: center;
+}
+.left{
+    border-right: 1px solid wheat;
+    /* text-align: left; */
+}
+.heading{
+    color:wheat;
+    text-decoration: underline;
+}
+.impt{
+    font-weight: bold;
 }

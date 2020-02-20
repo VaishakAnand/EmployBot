@@ -42,7 +42,6 @@
       </nav>
       
     </div>
-
     <div class="welcome container pt-5 pb-2">
       <div class="row justify-content-centre">
         <div class="col-1"></div>
@@ -54,9 +53,11 @@
 
           <div class="input-group pb-3">
             <div class="custom-file">
-              <input type="file" class="custom-file-input" id="inputGroupFile01"
+              <input id = "uploadBut" type="file" class="custom-file-input" id="inputGroupFile01"
                 aria-describedby="inputGroupFileAddon01">
-              <label class="custom-file-label" for="inputGroupFile01">Choose a file to upload!</label>
+              <label class="custom-file-label" for="inputGroupFile01">
+                <span id="upload">Choose a file to upload!</span>
+              </label>
             </div>
           </div>          
         </div>
@@ -66,19 +67,20 @@
         <div class="col-1 "></div>       
       </div>        
     </div>
-
     <div class= "container">
       <div class="row">
         <div class="col-2 col-md-4"></div>
         <div class="col-8 col-md-4">
-          <a href="LoadingPage.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3" role="button">Submit</a> 
+          <button id = "submitButton" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3" role="button">
+            <span id="submiter" class="align-middle"></span>
+            <span id = "submitText" class="align-middle">Submit</span>
+          </button> 
+          
         </div>
         <div class="col-2 col-md-4"></div>
       </div>
     </div>
-
     <hr class="my-4">
-
     <div class="container welcome pt-4">
       <div class="row justify-content-centre">
         <div class="col-1"></div>
@@ -100,12 +102,10 @@
         <div class="col-2 col-md-4"></div>
       </div>
     </div>
-    
-
-    
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="Loading.js"></script>
   </body>
 </html>
