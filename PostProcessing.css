@@ -24,7 +24,7 @@ hr {
 }
 .left{
     border-right: 1px solid wheat;
-    /* text-align: left; */
+    
 }
 .heading{
     color:wheat;
@@ -32,4 +32,5 @@ hr {
 }
 .impt{
     font-weight: bold;
+    color: rgb(219, 218, 183)
 }
