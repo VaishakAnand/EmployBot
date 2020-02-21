@@ -18,3 +18,11 @@ hr {
 .welcome{
     color: wheat;
 }
+.formMaker{
+	color: wheat;
+}
+.button1{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
