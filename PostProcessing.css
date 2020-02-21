@@ -63,3 +63,8 @@ hr {
 .title{
     color: wheat;
 }
+
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
+}

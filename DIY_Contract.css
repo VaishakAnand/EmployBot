@@ -26,3 +26,7 @@ hr {
     border: 1px solid black;
     color: rgb(0, 0, 0);
 }
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
+}

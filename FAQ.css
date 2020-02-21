@@ -10,7 +10,7 @@ hr {
 	position: relative;
 	width: 100vw;
 	height: 2px;
-	margin: 0.5rem 0 0.5rem -50vw;
+	margin: 0.5rem 0 2rem -50vw;
 	left: 50%;
 	border: none;
     border-bottom: 2px dashed wheat;
@@ -25,4 +25,10 @@ hr {
 .title{
     color: wheat;
     font-size: 1.2rem;
+}
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
 }
