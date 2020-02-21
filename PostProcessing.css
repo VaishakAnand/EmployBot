@@ -20,11 +20,13 @@ hr {
 }
 .contract{
     color:whitesmoke;
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.03rem;
+    /* text-align: center; */
 }
 .left{
     border-right: 1px solid wheat;
-    
 }
 .heading{
     color:wheat;
