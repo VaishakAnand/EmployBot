@@ -36,3 +36,30 @@ hr {
     font-weight: bold;
     color: rgb(219, 218, 183)
 }
+.button1{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+#lighted1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 2);
+}
+#lighted2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 2);
+}
+#lighted3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 2);
+}
+#lighted4{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 2);
+}
+.card{
+    background-color: rgb(39, 39, 35);
+}
+.title{
+    color: wheat;
+}

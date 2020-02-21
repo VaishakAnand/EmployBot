@@ -10,42 +10,48 @@
   </head>
   <body>
     <div class="employnav container">
-        <nav id = "mainNavbar" class="navbar navbar-dark navbar-expand-md">
-  
-          <a class="navbar-brand" href="StartPage.html">
-            <img src="Images/Logo.png" width="30" height="30" class="mr-1 d-inline-block align-top font" alt="">
-            EmployBot
-          </a>
-  
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navlinks">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="EmployeeHomePage.html" class="nav-link">EMPLOYEE</a>
-              </li>
-              <li class="nav-item">
-                <a href="EmployerLandingPage.html" class="nav-link">EMPLOYER</a>
-              </li>
-              <li class="nav-item">
-                <a href="DIY_Contract.html" class="nav-link">DIY CONTRACT</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">HELP</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-    </div>
+      <nav id = "mainNavbar" class="navbar navbar-dark navbar-expand-md">
+
+        <a class="navbar-brand" href="StartPage.html">
+          <img src="Images/Logo.png" width="30" height="30" class="mr-1 d-inline-block align-top font" alt="">
+          EmployBot
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navlinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="EmployeeHomePage.html" class="nav-link">EMPLOYEE</a>
+            </li>
+            <li class="nav-item">
+              <a href="EmployerLandingPage.html" class="nav-link">EMPLOYER</a>
+            </li>
+            <li class="nav-item">
+              <a href="DIY_Contract.html" class="nav-link">DIY CONTRACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="FAQ.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="Help.html" class="nav-link">HELP</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
       <div class="welcome container pt-3 pb-2">
         <div class="row justify-content-centre">
           <div class="col-1"></div>
           <div class="col-10 text-center ">
-            <h2 class="font-weight-bold pb-3">Contract Processed!</h2>
-            <p>Have a look at the details below. Click on highlighted text for more info!</p>
-            <a href="PostProcessing.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3" role="button">Translate</a>
+            <h2 class="font-weight-bold pb-3">
+              চুক্তি প্রক্রিয়াজাত!</h2>
+            <p>
+              নীচে বিশদটি দেখুন। আরও তথ্যের জন্য হাইলাইট করা পাঠ্যে ক্লিক করুন!</p>
+            <a href="PostProcessing.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3" role="button">
+              অনুবাদ করা</a>
             <hr>
           </div>
           <div class="col-1 "></div>
@@ -53,7 +59,7 @@
     </div>
     <div class="container-fluid">
         <div class="contract row">
-            <div class="left col-md-6 text-left ml-3">
+            <div class="left col-md-6 text-left">
               <h3 class="heading text-center pb-4">SampleContract.pdf</h3>
                 <!-- <p><span class="impt">1. কর্মের তারিখ: আপনার কাজের প্রথম দিনটি 20/02/2020</p>
                 <p><span class="impt">2. Place of work: </span>National University of Singapore</p>
@@ -83,14 +89,14 @@
                 <p><span class="impt">&nbsp; &nbsp; &nbsp;Signature: </span>choy</p> -->
 
                 <pre class="contract">
-<a href = "DIY_Contract.html"><mark>1. কর্মের তারিখ: আপনার কাজের প্রথম দিনটি 20/02/2020</mark></a>
+1. কর্মের তারিখ: আপনার কাজের প্রথম দিনটি <a id = "lighted1" data-toggle="collapse" data-target="#collapseOne">20/02/2020</a>
 
 2. কাজের জায়গা: সিঙ্গাপুর জাতীয় বিশ্ববিদ্যালয়
 
 3. কাজের শিরোনাম: প্রশাসনিক সহকারী
 
 4. বেতন
-  4.1। মাসিক বেতন: ,000 4,000
+  4.1। মাসিক বেতন: <a id = "lighted2" data-toggle="collapse" data-target="#collapseTwo">4,000</a>
   4.2। প্রদানের তারিখ: প্রতি মাসের প্রথম কার্যদিবস; জিরো দ্বারা
 
 5. কাজের দিন / কাজের সময় / ওভারটাইম
@@ -108,11 +114,11 @@
       অসুস্থ ছুটিতে অনুপস্থিত আপনি উত্পাদন করতে হবে
       একটি মেডিকেল শংসাপত্র।
 
-7. কর্মসংস্থান সমাপ্তি:
+7. <a id = "lighted3" data-toggle="collapse" data-target="#collapseTwo">কর্মসংস্থান সমাপ্তি:</a>
   যে কোনও পক্ষই এই চুক্তিটি 1 মাসের লিখিত সাথে শেষ করতে পারেন
   নোটিশ বা সংশ্লিষ্ট সময়ের জন্য নোটিশ পরিবর্তে বেতন প্রদান।
 
-8. সরঞ্জামের জন্য দায়বদ্ধতা
+8. <a id = "lighted4" data-toggle="collapse" data-target="#collapseTwo">সরঞ্জামের জন্য দায়বদ্ধতা</a>
   8.1। আপনি সকলের ব্যবহার এবং স্টোরেজ যত্ন নেওয়ার উদ্যোগ নিয়েছেন
        ইস্যু সরঞ্জাম এবং জাতীয় বিশ্ববিদ্যালয় প্রদান করবে
        সিঙ্গাপুর যে কোনও কারণে এবং সমস্ত ক্ষয়ক্ষতি / সরঞ্জামের ক্ষতির জন্য
@@ -133,7 +139,82 @@
             <hr class="d-block d-md-none">
             </div>
             <div class="col-md-6">
-                
+              <h3 class="heading text-center pb-4">
+                মূল বিবরণ</h3>
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="title btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        কর্মসংস্থান তারিখ
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div name = "collapseOne" id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      
+                      <p>
+                        তারিখ চুক্তি প্রবেশ করেছে: 20/02/2020</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="title btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        বেতন
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Monthly payment made by GIRO</p>
+                      <p>CPF (Automatically Calculated):</p>
+                      <p>Take-Home Pay:</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="title btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        পরিসমাপ্তি
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>The requirements that will allow either you or Azahar terminate your employment:</p>
+
+                      <p>A written letter or email stating an intent to end your employment will end your employment in 1 month from the day the letter is issued to the other party</p>
+                        
+                      <p>Instead of written notice, 1 month salary could be given to end your employment instead</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="title btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+                        সম্ভাব্যভাবে অন্যায় / ঝুঁকিপূর্ণ ধারা
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div name = "collapseFour" id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      
+                      
+
+                      <p>If the equipment loaned out to you gets damaged, you may have to pay back the cost of repair or replacement</p>
+
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>

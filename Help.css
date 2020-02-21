@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(29, 29, 27);
+    font-family: 'Raleway', sans-serif;
+}
+#mainNavbar .nav-link:hover{
+    color: yellow;
+}
+hr {
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 2px;
+	margin: 0.5rem 0 0.5rem -50vw;
+	left: 50%;
+	border: none;
+    border-bottom: 2px dashed wheat;
+}
+.welcome{
+    color: wheat;
+}
+.tec{
+	color:white;
+}
