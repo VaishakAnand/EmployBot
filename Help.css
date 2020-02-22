@@ -21,3 +21,17 @@ hr {
 .tec{
 	color:white;
 }
+.card{
+    background-color: rgb(39, 39, 35);
+    color: white;
+}
+.title{
+    color: wheat;
+    font-size: 1.2rem;
+}
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+}
