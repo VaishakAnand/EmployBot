@@ -1,0 +1,25 @@
+hr {
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 2px;
+	margin: 2rem 0 2rem -50vw;
+	left: 50%;
+	border: none;
+    border-bottom: 2px dashed wheat;
+}
+.welcome{
+    color: wheat;
+}
+.leftSide {
+    color: wheat;
+    border-right: 1px dashed wheat;
+}
+.rightSide {
+    color: wheat;
+}
+.button1{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}

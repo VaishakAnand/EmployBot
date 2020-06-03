@@ -1,10 +1,4 @@
-body {
-    background-color: rgb(29, 29, 27);
-    font-family: 'Raleway', sans-serif;
-}
-#mainNavbar .nav-link:hover{
-    color: yellow;
-}
+
 hr {
 	display: block;
 	position: relative;
