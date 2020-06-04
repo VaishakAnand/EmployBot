@@ -10,19 +10,22 @@ hr {
 }
 p{
     font-size: 1.2rem;
+    color: wheat;
 }
 .welcome{
     color: wheat;
 }
-.leftSide {
-    color: wheat;
-    border-right: 1px solid wheat;
-}
-.rightSide {
+#txt{
+    font-size: 1.2rem;
     color: wheat;
 }
-.button1{
-    background-color: rgb(255, 196, 0);
-    border: 1px solid black;
-    color: rgb(0, 0, 0);
+#industrySelection{
+    border-bottom: 1px solid wheat;
+}
+.form-check{
+    font-size: 1.1rem;
+    padding-right: 0.27rem;
+}
+.fieldLabel{
+    font-size: 1.1rem;
 }

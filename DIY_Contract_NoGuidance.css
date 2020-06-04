@@ -12,6 +12,9 @@ hr {
 .welcome{
     color: wheat;
 }
+#tagline{
+	font-size: 1.2rem;
+}
 .formMaker{
 	color: wheat;
 }

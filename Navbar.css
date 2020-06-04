@@ -1,6 +1,7 @@
 body {
     background-color: rgb(29, 29, 27);
     font-family: 'Raleway', sans-serif;
+    color: wheat;
 }
 #mainNavbar .nav-link:hover{
     color: yellow;

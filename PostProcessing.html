@@ -8,11 +8,12 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="PostProcessing.css">
   <link rel="stylesheet" href="Navbar.css">
-  
+
   <title>Contract Details</title>
 </head>
 
 <body>
+
   <div class="employnav container">
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md">
 
@@ -47,14 +48,25 @@
       </div>
     </nav>
   </div>
+
   <div class="welcome container pt-3 pb-2">
     <div class="row justify-content-centre">
       <div class="col-1"></div>
       <div class="col-10 text-center ">
         <h2 class="font-weight-bold pb-3">Contract Processed!</h2>
         <p>Have a look at the details below. Click on highlighted text for more info!</p>
-        <a href="BanglaPage.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3"
-          role="button">Translate / অনুবাদ করা</a>
+        <div class="row mt-4">
+          <div class="col-1"></div>
+          <div class="col-5">
+            <a href="BanglaPage.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3"
+              role="button">Translate / অনুবাদ করা</a>
+          </div>
+          <div class="col-5">
+            <a href="FAQ.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3"
+              role="button">FAQ / Help</a>
+          </div>
+          <div class="col-1"></div>
+        </div>
         <hr>
       </div>
       <div class="col-1 "></div>
@@ -64,33 +76,6 @@
     <div class="contract row">
       <div class="left col-md-6 text-left">
         <h3 class="heading text-center pb-4">SampleContract.pdf</h3>
-        <!-- <p><span class="impt">1. Date of Employment: </span>Your first day of work is 20/02/2020</p>
-                <p><span class="impt">2. Place of work: </span>National University of Singapore</p>
-                <p><span class="impt">3. Job Title: </span>Administrative Assistant</p>
-                <p class="impt">4. Salary:</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;4.1. Monthly Salary:</span> $4000</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;4.2. Payment Date: </span>First Working day of every month; by GIRO</p>
-                <p class="impt">5. Working Days / Hours of work / Overtime:</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;5.1 </span> Working days will be 5 days a week.</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;5.2 </span> The normal working hours will be from 0900 to 1800 hrs.</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;5.3 </span>You will earn overtime pay if you work more than 8 hours a day, or 44 hours a week.
-                   Total overtime hours should not exceed 72 hours a month.</p>
-                <p class="impt">6. Sick Leave:</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;6.1 </span>No hospitalisation: Maximum 14 days each year.</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;6.2 </span>If hospitalised: Maximum 60 days (including the 14 days in 9.1) each year.</p>
-                <p><span class="impt"> &nbsp; &nbsp; &nbsp;6.3 </span>You must notify the employer as soon as possible if you are absent on sick leave.
-                  You will be required to produce a medical certificate.</p>
-                <p><span class="impt">7. Termination of Employment: </span>Either party can terminate this agreement with 1 month written notice or by paying salary in lieu of notice for the relevant period.</p>
-                <p><span class="impt">8. Liability for Equipment: </span>You undertake to take care in the usage and storage of all issued equipment and will reimburse National University of Singapore for any and all damage/loss of equipment so caused </p>
-                <p><span class="impt">9. General: </span>Any changes to this agreement will only be valid if they are in writing and have been agreed and signed by both parties.</p>
-                <p class="impt">10. Signatures: </p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Name of Employer: </span>Muhammad Azahar Bin Salleh </p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Date: </span>20/2/2020 </p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Signature: </span>Azahar </p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Name of Employee: </span>Choy Yong Chong</p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Date: </span>20/2/2020 </p>
-                <p><span class="impt">&nbsp; &nbsp; &nbsp;Signature: </span>choy</p> -->
-
         <pre class="contract">
 1. Date of Employment: Your first day of work is <a id = "lighted1" data-toggle="collapse" data-target="#collapseOne">20/02/2020</a>
 
@@ -221,11 +206,8 @@
               data-parent="#accordionExample">
               <div class="card-body">
 
-
-
                 <p>If the equipment loaned out to you gets damaged, you may have to pay back the cost of repair or
                   replacement</p>
-
 
               </div>
             </div>
