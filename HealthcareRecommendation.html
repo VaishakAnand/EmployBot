@@ -69,10 +69,10 @@
                     <div class=" ml-3 btn-group dropright">
                         <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Unselected
+                            Healthcare
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="HealthcareRecommendation.html">Healthcare</a>
+                            <a class="dropdown-item active" href="#">Healthcare</a>
                             <a class="dropdown-item" href="#">Retail</a>
                             <a class="dropdown-item" href="#">Food and Beverage</a>
                             <a class="dropdown-item" href="#">Education</a>
@@ -85,8 +85,8 @@
                     </div>
                 </div>
                 <div>
-                    <p>Select your required fields below.</p>
-                    <p>Recommended fields will ticked after industry selection.</p>
+                    <p><span class="selected font-weight-bold">Healthcare</span> recommendation provided!</p>
+                    <!-- <p>Recommended fields will ticked after industry selection.</p> -->
 
                     <!-- PARTICULARS -->
                     <div class="lineBelow row pt-5">
@@ -97,19 +97,19 @@
                             <div>
                                 <div class="form-check form-check-inline pl-4">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
-                                        value="option1">
+                                        value="option1" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox1">
                                         Employee Name
                                     </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                        value="option2">
+                                        value="option2" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox2">Employer Name</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
+                                        value="option3" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox3">Contract Date</label>
                                 </div>
                             </div>
@@ -126,36 +126,26 @@
                             <div>
                                 <div class="form-check form-check-inline pl-4">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
-                                        value="option1">
+                                        value="option1" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox1">Job Title</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                        value="option2">
+                                        value="option2" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox2">Job Scope</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
+                                        value="option3" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox3">Employment Duration</label>
                                 </div>
                             </div>
                             <div class="pt-4">
                                 <div class="form-check form-check-inline pl-4">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
-                                        value="option1">
+                                        value="option1" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox1">Working Hours</label>
                                 </div>
-                                <!-- <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                        value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">AAAAA</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
-                                    <label class="form-check-label" for="inlineCheckbox3">AAAAA</label>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -169,17 +159,17 @@
                             <div>
                                 <div class="form-check form-check-inline pl-4">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
-                                        value="option1">
+                                        value="option1" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox1">Amount</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                        value="option2">
+                                        value="option2" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox2">Payment Type</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
+                                        value="option3" checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox3">Due Date</label>
                                 </div>
                                 <div class="form-check form-check-inline">
@@ -204,7 +194,7 @@
                                         value="option3">
                                     <label class="form-check-label" for="inlineCheckbox3">Fixed Allowance</label>
                                     <a type="button" class="makeRed" data-toggle="popover"
-                                        title="Fixed Allowance" data-placement="top"
+                                        title="Fixed Deductions" data-placement="top"
                                         data-content="The  Employment  Act  allows  employers  to  make  certain  deductions from the salary of the employee">
                                         &#65110;
                                     </a>
@@ -223,11 +213,9 @@
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
-                                    <label class="form-check-label" for="inlineCheckbox3">Deductions for damaged/lost
-                                        goods</label>
-                                    <a type="button" class="makeRed" data-toggle="popover"
-                                        title="Deductions for damaged/lost goods" data-placement="top"
+                                        value="option3" checked='true'>
+                                    <label class="form-check-label" for="inlineCheckbox3">Deductions for damaged/lost goods</label>
+                                    <a type="button" class="makeRed" data-toggle="popover" title="Deductions for damaged/lost goods" data-placement="top"
                                         data-content="The  Employment  Act  allows  employers  to  make  certain  deductions from the salary of the employee.
                                         
                                         If the employee is specifically entrusted with goods or money which they damage or lose due to their negligence or default, this clause allows the lost value to be deducted from the employee's wages
@@ -312,7 +300,7 @@
                                         value="option3">
                                     <label class="form-check-label" for="inlineCheckbox3">Confidentiality</label>
                                     <a type="button" class="makeRed" data-toggle="popover"
-                                        title="Confidentiality" data-placement="top"
+                                        title="Fixed Deductions" data-placement="top"
                                         data-content="The  Employment  Act  allows  employers  to  make  certain  deductions from the salary of the employee">
                                         &#65110;
                                     </a>
@@ -322,7 +310,7 @@
                                         value="option3">
                                     <label class="form-check-label" for="inlineCheckbox3">Intellectual Property</label>
                                     <a type="button" class="makeRed" data-toggle="popover"
-                                        title="Intellectual Property" data-placement="top"
+                                        title="Fixed Deductions" data-placement="top"
                                         data-content="The  Employment  Act  allows  employers  to  make  certain  deductions from the salary of the employee">
                                         &#65110;
                                     </a>
@@ -336,20 +324,15 @@
                             <div class="pt-4">
                                 <div class="form-check form-check-inline pl-4">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
+                                        value="option3"  checked='true'>
                                     <label class="form-check-label" for="inlineCheckbox3">Dismissal Notice
                                         Period</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
+                                        value="option3" checked="true">
                                     <label class="form-check-label" for="inlineCheckbox3">Other Benefits</label>
                                 </div>
-                                <!-- <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                        value="option3">
-                                    <label class="form-check-label" for="inlineCheckbox3">Probation Period</label>
-                                </div> -->
                             </div>
                         </div>
                     </div>

@@ -6,3 +6,7 @@ body {
 #mainNavbar .nav-link:hover{
     color: yellow;
 }
+#help{
+    color: rgb(0, 225, 255);
+    text-decoration: underline;
+}
