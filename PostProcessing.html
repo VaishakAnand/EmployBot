@@ -15,7 +15,7 @@
 <body>
 
   <div class="employnav container">
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md pb-5">
 
       <a class="navbar-brand" href="StartPage.html">
         <img src="Images/Logo.png" width="30" height="30" class="mr-1 d-inline-block align-top font" alt="">
@@ -44,6 +44,19 @@
           <li class="nav-item">
             <a href="Help.html" class="nav-link">HELP</a>
           </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" d="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                TRANSLATE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="StartPage_Bengali.html">Bengali | বাংলা</a>
+                <a class="dropdown-item" href="#">Tamil | தமிழ்</a>
+                <a class="dropdown-item" href="#">Chinese | 中文</a>
+                <a class="dropdown-item" href="#">Malay | melayu</a>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
@@ -58,8 +71,17 @@
         <div class="row mt-4">
           <div class="col-1"></div>
           <div class="col-5">
-            <a href="BanglaPage.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3"
-              role="button">Translate / অনুবাদ করা</a>
+            <div class="dropdown">
+              <button class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3 dropdown-toggle nav-link" d="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Translate
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="BanglaPage.html">Bengali | বাংলা</a>
+                <a class="dropdown-item" href="#">Tamil | தமிழ்</a>
+                <a class="dropdown-item" href="#">Chinese | 中文</a>
+                <a class="dropdown-item" href="#">Malay | melayu</a>
+              </div>
+            </div>
           </div>
           <div class="col-5">
             <a href="FAQ.html" class="button1 font-weight-bold btn btn-secondary btn-lg btn-block mb-3"
