@@ -1,0 +1,36 @@
+
+*{font-family:sans-serif;}
+
+#settings { display: block; text-align:center}
+
+
+#paint {
+    border: 1px solid black; 
+    background : #333333; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+button{
+    background-color: orange;
+}
+hr {
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 2px;
+	margin: 2rem 0 2rem -50vw;
+	left: 50%;
+	border: none;
+    border-bottom: 2px dashed wheat;
+}
+p{
+    font-size: 1.2rem;
+}
+.welcome{
+    color: wheat;
+}
+.toAddBorder{
+    border-top: 1px solid wheat;
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="DigitalSignature.css">
+    <link rel="stylesheet" href="Navbar.css">
+
+    <title>EmployBot</title>
+</head>
+
+<body>
+    <div class="employnav container">
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md pb-5">
+
+            <a class="navbar-brand" href="StartPage.html">
+                <img src="Images/Logo.png" width="30" height="30" class="mr-1 d-inline-block align-top font" alt="">
+                EmployBot
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks"
+                aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navlinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="EmployeeHomePage.html" class="nav-link">EMPLOYEE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="EmployerLandingPage.html" class="nav-link">EMPLOYER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContractLandingPage.html" class="nav-link">DIY CONTRACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="FAQ.html" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Help.html" class="nav-link">HELP</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="welcome container pt-5 pb-2">
+        <div class="row justify-content-centre">
+            <div class="col-1"></div>
+            <div class="col-10 text-center ">
+                <h2 class="display-4 font-weight-bold pb-2">Digital Signature</h2>
+                <hr>
+            </div>
+            <div class="col-1 "></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pb-4">
+            <div class="col-1"></div>
+            <div class="col-10 text-center">
+                <p class="pb-3">Draw out your signature, and click the save button to sign the contract!</p>
+
+                <span>I am the: </span>
+                <div class="pl-3 form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Employer</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Employee</label>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div id="sketch">
+        <canvas id="paint"></canvas>
+    </div>
+
+    <div id="settings">
+        <p></p>
+        <button class="btn btn-warning font-weight-bold" onclick="clearScr();">Clear Pad</button>
+        <button class="btn btn-warning font-weight-bold">Upload to Contract</button>
+        <br>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row pt-5 mt-3 pb-3 toAddBorder">
+            <div class="col-1"></div>
+            <div class="col-10 text-center">
+                
+                <p></p>
+                <p>Want to upload an Image file of the signature instead?</p>
+                <div id="uploadBut" class="input-group pt-2">
+                    <div class="custom-file">
+                        <input type="file" class="btn custom-file-input" id="inputGroupFile01"
+                            aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">
+                            <span id="upload">Choose a file</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="mt-4 btn btn-warning font-weight-bold">Upload to Contract</button>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div class="container pt-1">
+        <div class="row">
+            <div class="col-2 col-md-4"></div>
+            <div class="col-8 col-md-4 text-center">
+                <hr>
+                <a href="FAQ.html" class="pb-5" id="help">Have some Questions? Click here!</a>
+            </div>
+            <div class="col-2 col-md-4"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="DigitalSignature.js"></script>
+</body>
+
+</html>
